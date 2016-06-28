@@ -1,0 +1,18 @@
+body {
+    background-color: rgb(235, 236, 237);
+}
+.social-icon {
+	height: 25px !important;
+	width: 25px !important;
+}
+.avatar1, .avatar2, .avatar3, .avatar4, .avatar5, 
+.avatar6, .avatar7
+{ display: inline-block; background: url('sprite.png') no-repeat; overflow: hidden; text-indent: -9999px; text-align: left; }
+ 
+.avatar1 { background-position: -2px -0px; width: 50px; height: 50px; }
+.avatar2 { background-position: -54px -0px; width: 50px; height: 50px; }
+.avatar3 { background-position: -2px -52px; width: 50px; height: 50px; }
+.avatar4 { background-position: -54px -52px; width: 50px; height: 50px; }
+.avatar5 { background-position: -2px -104px; width: 50px; height: 50px; }
+.avatar6 { background-position: -54px -104px; width: 50px; height: 50px; }
+.avatar7 { background-position: -2px -156px; width: 50px; height: 50px; }

@@ -1,0 +1,19 @@
+{
+  "name": "performance-optimization",
+  "version": "1.0.0",
+  "description": "project for teamtreehouse",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concat": "0.0.1-security",
+    "gulp-clean-css": "^2.0.10",
+    "gulp-concat": "^2.6.0",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-uglify": "^1.5.4",
+    "sprity": "^1.0.8"
+  }
+}
