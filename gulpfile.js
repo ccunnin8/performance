@@ -4,6 +4,7 @@ var cleanCSS = require('gulp-clean-css');
 var sourcemaps = require('gulp-sourcemaps');
 var concat = require("gulp-concat");
 var uglify = require("gulp-uglify");
+var sprite = require("css-sprite");
  
 gulp.task('minify-css', function() {
     return gulp.src(['css/normalize.css','css/foundation.css','css/basics.css'
@@ -21,14 +22,5 @@ gulp.task("minify-js",function(){
 		.pipe(concat('main.min.js'))
 		.pipe(gulp.dest('dist/js'));
 });
-/**<link rel="stylesheet" href="css/basics.css">
-        <link rel="stylesheet" href="css/menu.css">
-        <link rel="stylesheet" href="css/hero.css">
-        <link rel="stylesheet" href="css/photo-grid.css">
-        <link rel="stylesheet" href="css/modals.css">
-        <link rel="stylesheet" href="css/footer.css">
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/fastclick/1.0.6/fastclick.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.2.3/foundation.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.2.3/plugins/foundation.equalizer.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.2.3/plugins/foundation.reveal.js"></script>**/
+
+gul
